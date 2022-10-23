@@ -22,7 +22,7 @@ namespace ByteX.src
             options.VSync = false;
             window = Window.Create(options);
 
-            //lambdas
+            //lambdas for events
             window.Load += () =>
             {
                 Console.WriteLine($"window {window} loaded");
