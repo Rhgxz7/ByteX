@@ -1,8 +1,9 @@
 ﻿using System;
 using Silk.NET.Windowing;
 using Silk.NET.Maths;
+using Silk.NET.Input;
 
-namespace ByteX.src
+namespace ByteX
 {
     public class ByxWindow
     {
@@ -19,14 +20,11 @@ namespace ByteX.src
             options = WindowOptions.Default;
             options.Title = name;
             options.Size = new Vector2D<int>(width, height);
-            options.VSync = false;
+            options.VSync = true;
             window = Window.Create(options);
 
             //lambdas for events
-            window.Load += () =>
-            {
-                Console.WriteLine($"window {window} loaded");
-            };
+            window.Load += OnWindowLoad;
             window.Update += (d) =>
             {
                 Console.Write($"\r FPS: {1 / d}");
@@ -36,7 +34,19 @@ namespace ByteX.src
             window.Run();
         }
 
+        private void OnWindowLoad()
+        {
+            input = window!.CreateInput();
 
+            foreach (IMouse mouse in input.Mice)
+            {
+                mouse.Click += (IMouse cursor, MouseButton button, System.Numerics.Vector2 pos) =>
+                {
+                    Console.WriteLine($"\n\n click!\n Device: {cursor}\n Button: {button}\n At: {pos}\n ");
+                };
+            }
+        }
+        private static IInputContext? input;
         public IWindow? window;
         private WindowOptions options;
         private int width;

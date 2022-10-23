@@ -58,3 +58,11 @@ C:\Users\Admin\Documents\ByteX\Engine\Application\obj\Debug\net6.0\refint\Applic
 C:\Users\Admin\Documents\ByteX\Engine\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\Admin\Documents\ByteX\Engine\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
 C:\Users\Admin\Documents\ByteX\Engine\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\Silk.NET.Input.Common.dll
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\Silk.NET.Input.Glfw.dll
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\Silk.NET.Input.Sdl.dll
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\Silk.NET.SDL.dll
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\Silk.NET.Windowing.Sdl.dll
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\runtimes\osx-x64\native\libSDL2-2.0.dylib
+C:\Users\Admin\Documents\ByteX\Engine\Application\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll

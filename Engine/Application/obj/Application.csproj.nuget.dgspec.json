@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[2.16.0, )"
             },
+            "Silk.NET.Input": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
             "Silk.NET.Maths": {
               "target": "Package",
               "version": "[2.16.0, )"

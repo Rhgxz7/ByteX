@@ -1,6 +1,7 @@
-﻿using ByteX.src;
+﻿using ByteX;
+using ByteX.src;
 
-namespace Application.src
+namespace Application
 {
     internal class Program
     {
