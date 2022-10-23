@@ -2,7 +2,7 @@
 using Silk.NET.Windowing;
 using Silk.NET.Maths;
 
-namespace ByteX
+namespace ByteX.src
 {
     public class ByxWindow
     {
@@ -23,13 +23,15 @@ namespace ByteX
             window = Window.Create(options);
 
             //lambdas
-            window.Load += () => {
+            window.Load += () =>
+            {
                 Console.WriteLine($"window {window} loaded");
             };
-            window.Update += (double d) => {
-                Console.Write($"\r FPS: {1/d}");
+            window.Update += (d) =>
+            {
+                Console.Write($"\r FPS: {1 / d}");
             };
-            window.Render += (double d) => { };
+            window.Render += (d) => { };
 
             window.Run();
         }

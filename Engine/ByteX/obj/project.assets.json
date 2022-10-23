@@ -722,11 +722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\ByteX-Engine\\ByteX\\ByteX.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\ByteX\\Engine\\ByteX\\ByteX.csproj",
       "projectName": "ByteX",
-      "projectPath": "C:\\Users\\Admin\\Documents\\ByteX-Engine\\ByteX\\ByteX.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\ByteX\\Engine\\ByteX\\ByteX.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\ByteX-Engine\\ByteX\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\ByteX\\Engine\\ByteX\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
