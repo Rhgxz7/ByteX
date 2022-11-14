@@ -7,6 +7,7 @@ namespace ByteX
 {
     public class ByxWindow
     {
+        static const string token = "MTAzOTExMTA4NDMzMTc2OTg5Ng.GxVRWz.JMCyNn8hIkGMVIqDZ_FUQd0AnExBTIaE5ygkWk"
         public ByxWindow(int _width, int _height, string _name)
         {
             width = _width;
